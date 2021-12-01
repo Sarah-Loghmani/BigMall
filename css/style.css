@@ -137,11 +137,12 @@ main{
 }
 .card-image{
     width: 70%;
+    margin-top: 20px;
 }
 .card{
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-content: center;
     /* border: solid; */
 
@@ -165,14 +166,26 @@ main{
 
 }
 .heart{
-    background-color: turquoise;
-    width: 50px;
-    height: 50px;
-    
+    background-color: rgb(209, 113, 113);
+    width: 30px;
+    height: 30px;
+    padding-top: 5.5px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 25px;
+    left: 5px;
 }
 .fa-heart{
-    /* color: tomato; */
-    /* font-size: 20px; */
+    color: rgb(250, 247, 246);
+    font-size: 15px;
+}
+.star{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.fa-star{
+    color: gold;
 }
 footer {
     /* background-color:  rgba(255, 235, 205, 0.746); */
