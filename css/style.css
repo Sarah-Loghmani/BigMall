@@ -211,16 +211,22 @@ font-family: 'Pacifico', cursive;
     position: absolute;
     bottom: 25px;
     left: 5px;
+    
 }
-.fav{
+.fav, .buy{
     display: none;
 }
 .heart:hover .fav{
     display: block;
 }
 .heart:hover{
-    padding-right: 2rem;
-    
+    padding-right: 1.5rem;
+}
+/* .heart:hover .shop{
+    margin-left: 200px;
+} */
+.heart:hover .shop{
+    margin-left: 200px;
 }
 .fa-heart{
     color: rgb(250, 247, 246);
@@ -233,16 +239,15 @@ font-family: 'Pacifico', cursive;
     position: absolute;
     bottom: 25px;
     left: 40px;
-
-
+    /* margin-left: 200px; */
 }
+.shop:hover .buy{
+    display: block;
+}
+
 .shop:hover{
-    padding-right: 2rem;
+    padding-right: 1.5rem;
     
-}
-.shop:hover .fav{
-    padding-right: 1rem;
-     display: block;
 }
 .fa-cart-plus{
     color: rgb(250, 247, 246);
