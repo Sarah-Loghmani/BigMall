@@ -133,8 +133,15 @@ main{
     width: calc(100vw - 7rem);
 }
 .card-image{
-    width: 70%;
+    width: 65%;
     margin-top: 25px;
+}
+.card-image:active{
+    /* transform: scale(1.5); */
+    position: fixed;
+    top: 0;
+    width: 350px;
+    z-index: 1;
 }
 .size{
     font-size: 0.8rem;
@@ -155,6 +162,13 @@ main{
     -2px -5px 25px  #9b9999;
     position: relative;
 }
+/* figcaption{
+    position: absolute;
+    bottom: 60px;
+    right: 100px;
+    background-color: white;
+    border-radius: 20% 20% 0 0;
+} */
 .persent{
     background-color: rgb(182, 63, 42);
     width: 45px;
@@ -166,7 +180,7 @@ main{
 
 }
 .heart{
-    background-color: rgb(128, 91, 177);
+    background-color: rgb(110, 91, 177);
     width: 30px;
     height: 30px;
     padding-top: 5.5px;
@@ -200,9 +214,10 @@ main{
     position: absolute;
     right: 15px;
     top: 10px;
-}
-.fa-star{
     color: gold;
+}
+.fa-star-half-stroke{
+    width: 18px;
 }
 .price{
     background-color: rgb(202, 191, 191);
