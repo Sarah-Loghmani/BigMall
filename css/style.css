@@ -122,6 +122,15 @@ main{
 .first-img{
     width: calc(100vw - 7rem);
 }
+.advise{
+    background-color: white;
+    margin: 0 3.5rem;
+    text-align: center;
+    padding:25px ;
+    font-family: 'Outfit', sans-serif;
+    font-style: oblique;
+    color:rgb(131, 144, 174, 0.822) ;
+}
 .cards-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -129,7 +138,7 @@ main{
     gap: 30px;
     background-color: #fff;
     margin: 0px 3.5rem;
-    padding: 60px 25px 120px 25px;
+    padding: 20px 25px 120px 25px;
     width: calc(100vw - 7rem);
 }
 .card-image{
