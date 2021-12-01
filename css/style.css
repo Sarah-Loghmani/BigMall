@@ -166,7 +166,7 @@ main{
 
 }
 .heart{
-    background-color: rgb(209, 113, 113);
+    background-color: rgb(121, 59, 139);
     width: 30px;
     height: 30px;
     padding-top: 5.5px;
@@ -178,6 +178,23 @@ main{
 .fa-heart{
     color: rgb(250, 247, 246);
     font-size: 15px;
+}
+.shop{
+    background-color: rgb(41, 136, 77);
+    padding-top: 5.5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 25px;
+    left: 40px;
+
+
+}
+.fa-cart-plus{
+    color: rgb(250, 247, 246);
+    font-size: 17px;
+
 }
 .star{
     position: absolute;
