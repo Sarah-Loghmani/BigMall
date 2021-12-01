@@ -108,8 +108,7 @@ main{
       text-align: center;
 }
 .first-img-div h1{
-    font-family: 'Lobster', cursive;
-    font-size: 4rem;
+font-family: 'Pacifico', cursive;    font-size: 4rem;
     margin-bottom:50px ;
 }
 .first-img-div h2{
@@ -144,6 +143,9 @@ main{
 .card-image{
     width: 65%;
     margin-top: 25px;
+}
+.huge{
+    width: 60%;
 }
 .card-image:active{
     /* transform: scale(1.5); */
@@ -238,14 +240,15 @@ main{
 }
 footer {
     /* background-color:  rgba(255, 235, 205, 0.746); */
-        background-color: rgb(131,144,174);
-
+        background-color: rgb(131, 144, 174, 0.822);
+    min-height: 200px;
     display: flex;
     flex-flow:row wrap;
     font-family: 'Outfit', sans-serif;
 }
 .about-us{
     width: 600px;
+    margin: 0 3.5rem;
 }
 @media (max-width:480px) {
     .ham-icon{
