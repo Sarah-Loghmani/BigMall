@@ -7,6 +7,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
+    
 }
 .nav-top{
     display: flex;
@@ -108,7 +109,8 @@ main{
       text-align: center;
 }
 .first-img-div h1{
-font-family: 'Pacifico', cursive;    font-size: 4rem;
+font-family: 'Pacifico', cursive;   
+ font-size: 4rem;
     margin-bottom:50px ;
 }
 .first-img-div h2{
@@ -190,31 +192,57 @@ font-family: 'Pacifico', cursive;    font-size: 4rem;
     position: absolute;
 
 }
+.heart, .shop{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
 .heart{
     background-color: rgb(110, 91, 177);
-    width: 30px;
-    height: 30px;
-    padding-top: 5.5px;
-    border-radius: 50%;
+    padding: 5px;
+    /* width: 40px;
+    height: 30px; */
+    /* padding-top: 5.5px;*/
+    border-radius: 15px; 
+    /* margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 0.3rem; */
     position: absolute;
     bottom: 25px;
     left: 5px;
 }
+.fav{
+    display: none;
+}
+.heart:hover .fav{
+    display: block;
+}
+.heart:hover{
+    padding-right: 2rem;
+    
+}
 .fa-heart{
     color: rgb(250, 247, 246);
-    font-size: 15px;
+    font-size: 20px;
 }
 .shop{
     background-color: rgb(41, 136, 77);
-    padding-top: 5.5px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+    padding: 5px;
+    border-radius: 15px; 
     position: absolute;
     bottom: 25px;
     left: 40px;
 
 
+}
+.shop:hover{
+    padding-right: 2rem;
+    
+}
+.shop:hover .fav{
+    padding-right: 1rem;
+     display: block;
 }
 .fa-cart-plus{
     color: rgb(250, 247, 246);
@@ -259,4 +287,17 @@ footer {
    }
    .first-img-div{
         display: none;
+}
+@media (max-width:890px)  {
+    .first-img-div h1{
+ font-size: rem;
+}
+.first-img-div h2{
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.first-img-div p{
+    font-size: 1.5rem;
+}
+
 }
