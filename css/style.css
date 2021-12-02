@@ -232,7 +232,7 @@ font-family: 'Pacifico', cursive;
 
 
 
-
+/* bottuns bottuns bottuns bottuns bottuns bottuns bottuns  */
 .buttom-div{
     position: absolute;
     bottom: 3rem;
@@ -241,8 +241,9 @@ font-family: 'Pacifico', cursive;
 
 .icon-text{
     display: none ;
-    padding-left: 0.5rem;
-    transition: display 1s;
+    margin-left: -1.6rem ;
+    padding: 1rem 0rem 1rem 1rem;
+    border-radius: 16px;
 }
 
 .fa-heart{
@@ -253,16 +254,16 @@ font-family: 'Pacifico', cursive;
     color: rgb(7, 92, 73);
 }
 
-.buttom-div .shop{
+.shop{
     background-color: rgba(75, 196, 139, 0.719);
 
-    padding: 0.3rem;
+    padding: 0.4rem;
     margin-left: 0.5rem;
 
     border-radius: 16px;
 }
 
-.buttom-div .heart{
+.heart{
     background-color: rgba(136, 116, 207, 0.692);
 
     border-radius: 16px;
@@ -270,11 +271,25 @@ font-family: 'Pacifico', cursive;
     padding: 0.3rem 0.4rem;
 }
 
+.icon-text, .icon{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
 .icon:hover .icon-text{
     display: inline;
 }
 
+.icon-text:hover{
+    margin-left: 0.1rem;
+}
 
+.icon:hover{
+    padding-right: 2rem;
+}
+
+/* bottuns bottuns bottuns bottuns bottuns bottuns bottuns  */
 
 
 
