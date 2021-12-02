@@ -213,7 +213,7 @@ font-family: 'Pacifico', cursive;
     position: absolute;
 }
 
-.fa-heart{
+/* .fa-heart{
     color: rgb(243, 236, 233);
     font-size: 20px;
     background-color: rgb(81, 45, 150);
@@ -224,7 +224,71 @@ font-family: 'Pacifico', cursive;
     font-size: 17px;
     background-color: cadetblue;
     font-weight: 200;
+} */
+
+
+
+
+
+
+
+
+.buttom-div{
+    position: absolute;
+    bottom: 3rem;
+    left: 1rem;
 }
+
+.icon-text{
+    display: none ;
+    padding-left: 0.5rem;
+    transition: display 1s;
+}
+
+.fa-heart{
+    color: rgb(52, 38, 117);
+}
+
+.fa-cart-plus{
+    color: rgb(7, 92, 73);
+}
+
+.buttom-div .shop{
+    background-color: rgba(75, 196, 139, 0.719);
+
+    padding: 0.3rem;
+    margin-left: 0.5rem;
+
+    border-radius: 16px;
+}
+
+.buttom-div .heart{
+    background-color: rgba(136, 116, 207, 0.692);
+
+    border-radius: 16px;
+
+    padding: 0.3rem 0.4rem;
+}
+
+.icon:hover .icon-text{
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .star{
     position: absolute;
