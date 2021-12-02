@@ -122,8 +122,8 @@ main{
 }
 
 .first-img-div h1{
-font-family: 'Pacifico', cursive;   
- font-size: 4rem;
+    font-family: 'Pacifico', cursive;   
+    font-size: 4rem;
     margin-bottom:50px ;
 }
 .first-img-div h2{
@@ -150,13 +150,13 @@ font-family: 'Pacifico', cursive;
 .cards-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-template-rows: auto;
+    grid-template-rows: 450px 450px;
     gap: 30px;
 
     background-color: #fff;
 
     margin: 0px 3.5rem;
-    padding: 20px 25px 120px 25px;
+    padding: 20px 25px 0px 25px;
     width: calc(100vw - 7rem);
 }
 
@@ -307,25 +307,34 @@ footer {
     margin: 0 3.5rem;
 }
 
-@media (max-width:480px) {
+@media screen and (max-width:825px) {
     .ham-icon{
-        display: block;
+        display: inline;
     }
    .nav-top ul{
        display: none;
-   }
+    }
    .first-img-div{
         display: none;
-}
+    }
+    .cards-container{
+        /* margin: 0 1rem ; */
+    }
 }
 
-@media screen and(max-width:870px)  {
+@media screen and (max-width:480px){
+        .card-image{
+        width: 50%;
+    }
+
+}
+@media screen and (max-width:870px)  {
     .first-img-div h1{
-        font-size: 1rem;
+        font-size: 3.5rem;
 }
 .first-img-div h2{
     margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 .first-img-div p{
     font-size: 1.5rem;
