@@ -213,25 +213,6 @@ font-family: 'Pacifico', cursive;
     position: absolute;
 }
 
-/* .fa-heart{
-    color: rgb(243, 236, 233);
-    font-size: 20px;
-    background-color: rgb(81, 45, 150);
-}
-
-.fa-cart-plus{
-    color: rgb(228, 235, 231);
-    font-size: 17px;
-    background-color: cadetblue;
-    font-weight: 200;
-} */
-
-
-
-
-
-
-
 /* bottuns bottuns bottuns bottuns bottuns bottuns bottuns  */
 .buttom-div{
     position: absolute;
@@ -291,20 +272,6 @@ font-family: 'Pacifico', cursive;
 
 /* bottuns bottuns bottuns bottuns bottuns bottuns bottuns  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .star{
     position: absolute;
     right: 15px;
@@ -352,9 +319,9 @@ footer {
 }
 }
 
-@media (max-width:890px)  {
+@media screen and(max-width:870px)  {
     .first-img-div h1{
- font-size: rem;
+        font-size: 1rem;
 }
 .first-img-div h2{
     margin-bottom: 20px;
