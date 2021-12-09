@@ -222,7 +222,7 @@ main{
 
 .icon-text{
     display: none ;
-    margin-left: -1.6rem ;
+    /* margin-left: -1.6rem ; */
     padding: 1rem 0rem 1rem 1rem;
     border-radius: 16px;
 }
@@ -269,6 +269,7 @@ main{
 .icon:hover{
     padding-right: 2rem;
 }
+
 
 /* bottuns bottuns bottuns bottuns bottuns bottuns bottuns  */
 
